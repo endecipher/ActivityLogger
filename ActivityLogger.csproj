@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+    <PackageId>ActivityLogger</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Ayan Choudhury</Authors>
+    <Product>ActivityLogger</Product>
+    <Description>ActivityLogger is a simple, extensible activity/event logging implementation for .NET</Description>
+    <Copyright>Copyright © Ayan Choudhury 2023</Copyright>
+    <PackageTags>Logging;Activity;Event;ActivityLogger;Logger;Logs;Simple;Extensible</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>packageIcon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/endecipher/ActivityLogger</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="packageIcon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+</Project>
