@@ -1,10 +1,10 @@
+<img alt="packageIcon" src="https://github.com/endecipher/ActivityLogger/blob/main/packageIcon.png" width=20% height=20%> 
 
 # ActivityLogger
 
 Simple, extensible activity/event logging implementation for .NET
 
-
-
+[![NuGet version (ActivityLogger)](https://img.shields.io/nuget/v/ActivityLogger.svg?style=flat-square)](https://www.nuget.org/packages/ActivityLogger/)
 
 ## Documentation
 
