@@ -1,4 +1,4 @@
-<img alt="packageIcon" src="https://github.com/endecipher/ActivityLogger/blob/main/packageIcon.png" width=20% height=20%> 
+<img alt="packageIcon" src="https://github.com/endecipher/ActivityLogger/blob/main/packageIcon.png" width=10% height=10%> 
 
 # ActivityLogger
 
